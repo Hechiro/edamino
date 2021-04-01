@@ -6,5 +6,5 @@ __version__ = '1.2.13.1'
 
 
 from .client import Client
-from requests import get
-from json import loads
+
+print(f"You are using the version {__version__} {__title__} library created by {__author__}.")
